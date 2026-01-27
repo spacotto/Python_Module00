@@ -1,2 +1,2 @@
-# -Python-Module-00
+# Python Module 00
  Introduction to Python programming through practical community garden scenarios. 
