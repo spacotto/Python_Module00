@@ -107,4 +107,4 @@ def function_name(parameters):
 
 # Resources
 - [Python 3.14.2 documentation](https://docs.python.org/3/)
-- [How To Define Functions in Python 3](https://www.digitalocean.com/community/tutorials/how-to-define-functions-in-python-3)
+- [Python Functions](https://www.w3schools.com/python/python_functions.asp)
