@@ -7,7 +7,7 @@ A **function** is a **reusable block of code that performs a specific task**.
 
 **Syntax:**
 ```python
-def function_name():
+def function_name(parameters):
     # function body
 ```
 
