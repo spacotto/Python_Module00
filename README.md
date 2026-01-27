@@ -1,24 +1,24 @@
 # Python Module 00
 An introduction to Python fundamentals through community garden data analysis. This module teaches **basic syntax** and **semantics**, including **expressions**, **variables**, **functions**, and **control flow** through practical, real-world (sort of) exercises.
 
-## Exercise 0, Hello Garden: Function Definition and Output
-A **function** is a **reusable block of code that performs a specific task**.
+## Exercise 0, Hello Garden: Function Definition and `print`
+### Functions
+A **function** is a **reusable block of code that performs a specific task**. 
 
 **Syntax:**
 ```python
 def function_name():
     # function body
-    pass
 ```
 
-**The `print()` function** outputs text to the console. It takes one or more arguments and displays them.
+**Key concepts:** 
+- Functions are defined using the `def` keyword.
+- Function names should be descriptive and follow `snake_case` convention.
+- The colon `:` indicates the start of the function body.
+- **Indentation** (4 spaces) defines the function's scope.
 
-**Key concepts:**
-- Functions are defined using the `def` keyword
-- Function names should be descriptive and follow `snake_case` convention
-- The colon `:` indicates the start of the function body
-- Indentation (4 spaces) defines the function's scope
-- `print()` is a built-in function for displaying output
+### `print()` Function
+**The `print()` function** outputs text to the console. It takes one or more arguments and displays them.
 
 ## Exercise 1, Garden Plot Area: Variables and User Input
 **Variables** store data values that can be referenced and manipulated throughout your program. Python uses dynamic typing, meaning **you don't need to declare variable types explicitly**.
