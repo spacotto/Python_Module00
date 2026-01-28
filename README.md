@@ -83,7 +83,7 @@ Both iteration and recursion can solve the same problem differently.
 
 In this case, various approaches are acceptable:
 1. Using a **nested helper function** inside your main function:
-```
+```python
 def ft_count_harvest_recursive():
     limit = int(input("Days until harvest: "))
 
@@ -97,7 +97,7 @@ def ft_count_harvest_recursive():
 ```
 
 2. Using **default parameter values**:
-```
+```python
 def harvest_logic(current, limit):
     if current <= limit:
         print("Day", current)
@@ -110,7 +110,7 @@ def ft_count_harvest_recursive():
 ```
 
 3. Using a **separate helper function** called by your main function:
-```
+```python
 def ft_count_harvest_recursive(current=1):
     # This part only runs the very first time (when current is 1)
     if current == 1:
