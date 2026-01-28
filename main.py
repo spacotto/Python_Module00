@@ -52,7 +52,8 @@ def test_ft_exercise(exercise_file_name, exercise_folder):
     - Import it
     - Call the function ft_plot_area() inside it
     """
-    print(f"\n=== Testing {exercise_file_name} in {exercise_folder} ===")
+    print(f"\n Testing {GREEN}{exercise_file_name}{RESET} in {GREEN}{exercise_folder}{RESET}")
+    print(" ----------------------------------------------------------------------------")
 
     # Add the folder to the path before attempting to import
     add_exercise_folder_to_path(exercise_folder)
@@ -126,23 +127,24 @@ def test_ft_exercise(exercise_file_name, exercise_folder):
 def main():
     """Run main function - this runs when you execute: python3 main.py ."""
     print("\n ============================================================================")
-    print(f"{GREEN}🌱 Welcome to Growing Code! 🌱{RESET}")
-    print("\n ============================================================================")
-    print("This helper will test your exercises for you.")
-    print("\nWhich exercise would you like to test?")
-    print()
-    print("0 - ft_hello_garden     (Say hello to the garden community)")
-    print("1 - ft_plot_area        (Calculate garden plot area)")
-    print("2 - ft_harvest_total    (Add up harvest weights)")
-    print("3 - ft_plant_age        (Check if plant is ready)")
-    print("4 - ft_water_reminder   (Check if plants need water)")
-    print("5 - ft_count_harvest    (Count days to harvest)")
-    print("6 - ft_garden_summary   (Display garden info)")
-    print("7 - ft_seed_inventory   (Seed inventory with type hints)")
-    print("a - test all exercises")
+    print(f" {WHITE}🌱 Welcome to Growing Code! 🌱{RESET}")
+    print(" ============================================================================")
+    print(" This helper will test your exercises for you.")
+    print(" Which exercise would you like to test?i\n")
+    print(f" {WHITE}n.  Name                Description{RESET}")
+    print(" ----------------------------------------------------------------------------")
+    print(" 0   ft_hello_garden     Say hello to the garden community")
+    print(" 1   ft_plot_area        Calculate garden plot area")
+    print(" 2   ft_harvest_total    Add up harvest weights")
+    print(" 3   ft_plant_age        Check if plant is ready")
+    print(" 4   ft_water_reminder   Check if plants need water")
+    print(" 5   ft_count_harvest    Count days to harvest")
+    print(" 6   ft_garden_summary   Display garden info")
+    print(" 7   ft_seed_inventory   Seed inventory with type hints")
+    print(" a   -                   Test all exercises")
     print()
 
-    choice = input("Enter your choice: ")
+    choice = input(f"{WHITE} 🌱 Enter your choice: {RESET}")
 
     # Test the exercise based on user choice
     if choice == "0":
