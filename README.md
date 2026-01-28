@@ -1,35 +1,17 @@
 # Python Module 00
 An introduction to Python fundamentals through community garden data analysis. This module teaches **basic syntax** and **semantics**, including **expressions**, **variables**, **functions**, and **control flow** through practical, real-world (sort of) exercises.
 
-## Exercise 0, Hello Garden: Function Definition and `print`
+## Exercise 0: Hello Garden
 - [Function definition](https://github.com/spacotto/grimoire/blob/main/python/fn_definition.md)
 - [`print` function](https://github.com/spacotto/grimoire/blob/main/python/print.md)
 
-## Exercise 1, Garden Plot Area: Variables and User Input
-**Variables** store data values that can be referenced and manipulated throughout your program. Python uses dynamic typing, meaning **you don't need to declare variable types explicitly**.
+## Exercise 1, Garden Plot Area:
+- [Variables](https://github.com/spacotto/grimoire/blob/main/python/variable.md)
+- [`input()` function](https://github.com/spacotto/grimoire/blob/main/python/input.md)
 
-**The `input()` function** reads user input from the console as a **string**.
-
-**Type conversion** using `int()` converts string data to integers for mathematical operations.
-
-**Key concepts:**
-- Variables are created by assignment: `variable = value`
-- `input()` **always returns a string**, regardless of what the user types
-- `int()` **converts strings to integers** for arithmetic operations
-- Basic arithmetic operators: `+`, `-`, `*`, `/`
-- Variables can store the results of calculations
-
-## Exercise 2, Harvest Total: Arithmetic Operations and Accumulation
-**Arithmetic operations** perform mathematical calculations on numeric values. 
-**Accumulation** is the pattern of collecting or summing values over multiple steps.
-
-**Key concepts:**
-- Multiple variables can store different values simultaneously
-- Values can be added together using the `+` operator
-- Results can be stored in new variables
-- Sequential operations build upon previous results
-- Variables can be reused and updated throughout the program
-
+## Exercise 2: Harvest Total
+- Arithmetic Operations and Accumulation
+  
 ## Exercise 3, Plant Age Check: Conditional Statements
 **Conditional statements** allow programs to make decisions and execute different code based on conditions.
 **Comparison operators** evaluate relationships between values, returning boolean results (`True` or `False`).
