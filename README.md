@@ -3,7 +3,7 @@ An introduction to Python fundamentals through community garden data analysis. T
 
 ## Exercise 0, Hello Garden: Function Definition and `print`
 - [Function definition](https://github.com/spacotto/grimoire/blob/main/python/fn_definition.md)
-- `[print` function](https://github.com/spacotto/grimoire/blob/main/python/print.md)
+- [`print` function](https://github.com/spacotto/grimoire/blob/main/python/print.md)
 
 ## Exercise 1, Garden Plot Area: Variables and User Input
 **Variables** store data values that can be referenced and manipulated throughout your program. Python uses dynamic typing, meaning **you don't need to declare variable types explicitly**.
