@@ -18,6 +18,16 @@ Make sure your exercise files are in the same folder as this main.py file!
 import sys
 import os
 
+# Standard ANSI Color codes
+GRAY    = "\033[1;90m"
+RED     = "\033[1;91m"
+GREEN   = "\033[1;92m"
+YELLOW  = "\033[1;93m"
+BLUE    = "\033[1;94m"
+MAGENTA = "\033[1;95m"
+CYAN    = "\033[1;96m"
+WHITE   = "\033[1;97m"
+RESET   = "\033[0m"
 
 def add_exercise_folder_to_path(folder_name):
     """
@@ -115,7 +125,9 @@ def test_ft_exercise(exercise_file_name, exercise_folder):
 
 def main():
     """Run main function - this runs when you execute: python3 main.py ."""
-    print("🌱 Welcome to Growing Code! 🌱")
+    print("\n ============================================================================")
+    print(f"{GREEN}🌱 Welcome to Growing Code! 🌱{RESET}")
+    print("\n ============================================================================")
     print("This helper will test your exercises for you.")
     print("\nWhich exercise would you like to test?")
     print()
