@@ -6,12 +6,19 @@ An introduction to Python fundamentals through community garden data analysis. T
 - [`print` function](https://github.com/spacotto/grimoire/blob/main/python/print.md)
 
 ## Exercise 1: Garden Plot Area
+- Multiplication
+```python
+area = x * y
+```
 - [Variables](https://github.com/spacotto/grimoire/blob/main/python/variable.md)
-- Data Types
+- Data Types & Data Casting
 - [`input()` function](https://github.com/spacotto/grimoire/blob/main/python/input.md)
 
 ## Exercise 2: Harvest Total
--
+- Sum calculation
+```python
+total = x + y + z
+```
   
 ## Exercise 3: Plant Age Check
 -
