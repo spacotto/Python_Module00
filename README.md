@@ -21,7 +21,7 @@ total = x + y + z
 ```
   
 ## Exercise 3: Plant Age Check
--
+Conditional statements (`if`, `else`)
 
 ## Exercise 4: Water Reminder
 -
