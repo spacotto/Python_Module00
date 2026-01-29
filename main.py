@@ -71,7 +71,7 @@ def test_ft_exercise(exercise_file_name, exercise_folder):
         # Special handling for ft_seed_inventory (Exercise 7)
         # This function takes parameters, unlike the others
         if exercise_file_name == "ft_seed_inventory":
-            print("Testing with different seed types and units:\n")
+            print(" Testing with different seed types and units:\n")
             # Test with packets
             ft_function("tomato", 15, "packets")
             # Test with grams
@@ -79,7 +79,7 @@ def test_ft_exercise(exercise_file_name, exercise_folder):
             # Test with area
             ft_function("lettuce", 12, "area")
             # Test with unknown unit
-            print("\nTesting with unknown unit:")
+            print("\n Testing with unknown unit:")
             ft_function("basil", 5, "unknown")
         else:
             # Run your function normally (no parameters)
