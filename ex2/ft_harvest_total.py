@@ -1,8 +1,15 @@
 def ft_harvest_total():
-    day1 = int(input("Day 1 harvest: "))
-    day2 = int(input("Day 2 harvest: "))
-    day3 = int(input("Day 3 harvest: "))
+    # Color variables for readability
+    white = "\033[1;97m"
+    reset = "\033[0m"
+
+    # Each input provided as str is converted to int
+    day1 = int(input(f"{white} Day 1 harvest: {reset}"))
+    day2 = int(input(f"{white} Day 2 harvest: {reset}"))
+    day3 = int(input(f"{white} Day 3 harvest: {reset}"))
     
+    # Sum of 3 inputs
     total = day1 + day2 + day3
     
-    print("Total harvest:", total)
+    # Display total
+    print(f"{white} Total harvest: {reset}", total)
