@@ -7,32 +7,17 @@ An introduction to Python fundamentals through community garden data analysis. T
 
 ## Exercise 1, Garden Plot Area:
 - [Variables](https://github.com/spacotto/grimoire/blob/main/python/variable.md)
+- Data Types
 - [`input()` function](https://github.com/spacotto/grimoire/blob/main/python/input.md)
 
 ## Exercise 2: Harvest Total
-- Arithmetic Operations and Accumulation
+-
   
 ## Exercise 3, Plant Age Check: Conditional Statements
-**Conditional statements** allow programs to make decisions and execute different code based on conditions.
-**Comparison operators** evaluate relationships between values, returning boolean results (`True` or `False`).
-
-**Key concepts:**
-- `if` statements execute code only when a condition is True
-- `else` provides an alternative path when the condition is False
-- Comparison operators: `>` (greater than), `<` (less than), `>=`, `<=`, `==`, `!=`
-- Indentation defines which code belongs to each branch
-- Programs can respond differently based on input values
+-
 
 ## Exercise 4, Water Reminder: Boolean Logic and Conditionals
-**Boolean logic** deals with True/False values and conditions that evaluate to these states.
-**Conditional branching** directs program flow based on boolean evaluations.
-
-**Key concepts:**
-- Conditions evaluate to boolean values (True or False)
-- `if`/`else` structures create decision points in code
-- Comparison operators return boolean results
-- Different messages can be displayed based on conditions
-- Logical flow allows programs to respond appropriately to different scenarios
+-
 
 ## Exercise 5, Count to Harvest: Iteration and Recursion
 Both iteration and recursion can solve the same problem differently.
@@ -107,30 +92,7 @@ def ft_count_harvest_recursive(current=1):
 - Helper functions can be defined inside or outside the main function for recursion
 
 ## Exercise 6, Garden Summary: String Formatting and Output
-**String concatenation** combines multiple strings or values into a single output.
-**Formatted output** presents data in a structured, readable format.
-
-**Key concepts:**
-- Multiple pieces of information can be displayed together
-- `print()` can output strings and variables
-- Information can be organized into clear, formatted displays
-- Combining user input with fixed text creates meaningful output
-- Well-formatted output improves program usability and readability
+-
 
 ## Exercise 7, Seed Inventory with Type Annotations: Function Parameters and Type Hints
-**Function parameters** allow functions to accept input values and operate on them.
-**Type annotations** explicitly document the expected types of function parameters and return values, improving code readability and enabling better tooling support.
-**String methods** are built-in functions that perform operations on string objects.
-
-**Key concepts:**
-- Parameters are defined in the function signature: `def func(param1, param2):`
-- Type hints specify expected types: `param: str`, `param: int`
-- Return type annotations use `-> Type` syntax
-- `-> None` indicates a function doesn't return a value
-- String methods like `.capitalize()` or `.title()` transform text
-- Parameters make functions flexible and reusable with different inputs
-- Type annotations serve as documentation and help catch errors early
-
-# Resources
-- [Python 3.14.2 documentation](https://docs.python.org/3/)
-- [Python Functions](https://www.w3schools.com/python/python_functions.asp)
+-
