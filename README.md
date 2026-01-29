@@ -37,19 +37,14 @@ Enter your choice:
 ```
 
 ### Use functions directly in the terminal
-Go into the directory of the function you want to use:
-```shell
-cd ex0  # Enter the directory of ex0
-```
-
 Switch to Python terminal:
 ```shell
 python3
 ```
 
-Import the function file and function:
+Import the file and function:
 ```python
->>> from ft_seed_inventory import ft_seed_inventory
+>>> from ex7.ft_seed_inventory import ft_seed_inventory
 ```
 
 Call the function directly in the main:
