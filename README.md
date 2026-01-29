@@ -13,6 +13,29 @@ Run the main:
 python3 main.py
 ```
 
+Enter your choice:
+```shell
+ ============================================================================
+ 🌱 Welcome to Growing Code! 🌱
+ ============================================================================
+ This helper will test your exercises for you.
+ Which exercise would you like to test?
+
+ n.  Name                Description
+ ----------------------------------------------------------------------------
+ 0   ft_hello_garden     Say hello to the garden community
+ 1   ft_plot_area        Calculate garden plot area
+ 2   ft_harvest_total    Add up harvest weights
+ 3   ft_plant_age        Check if plant is ready
+ 4   ft_water_reminder   Check if plants need water
+ 5   ft_count_harvest    Count days to harvest
+ 6   ft_garden_summary   Display garden info
+ 7   ft_seed_inventory   Seed inventory with type hints
+ a   -                   Test all exercises
+
+ 🌱 Enter your choice: 
+```
+
 ### Use functions directly in the terminal
 Go into the directory of the function you want to use:
 ```shell
