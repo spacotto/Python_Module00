@@ -10,11 +10,12 @@ def ft_seed_inventory(seed_type: str, quantity: int, unit: str) -> None:
     
     # Check the unit type to determine the correct message format
     if unit == "packets":
-        print(name, "seeds:", quantity, "packets available")
+        print(" ", name, "seeds:", quantity, "packets available")
     elif unit == "grams":
-        print(name, "seeds:", quantity, "grams total")
+        print(" ", name, "seeds:", quantity, "grams total")
     elif unit == "area":
-        print(name, "seeds: covers", quantity, "square meters")
+        print(" ", name, "seeds: covers", quantity, "square meters")
     else:
         # Unknown for any unit not specified in the requirements
         print(f"{white} Unknown unit type{reset}")
+
