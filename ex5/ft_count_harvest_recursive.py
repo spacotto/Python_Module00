@@ -1,10 +1,20 @@
-def ft_count_harvest_recursive():
-    limit = int(input("Days until harvest: "))
+def ft_count_harvest_recursive(current=1, limit=None):
+    # Color variables for readability
+    green = "\033[1;92m"
+    white = "\033[1;97m"
+    reset = "\033[0m"
     
-    def count_up(current_day, max_day):
-        if current_day <= max_day:
-            print("Day", current_day)
-            count_up(current_day + 1, max_day)
-            
-    count_up(1, limit)
-    print("Harvest time!")
+    # Initialisation: Only happens on the very first call
+    if limit is None:
+        limit = int(input(f"{white} Days until harvest: {reset}"))
+    
+    # Exit condition
+    if current > limit:
+        print(f"{green} Harvest time!{reset}")
+        return
+
+    # Print the current day
+    print(" Day", current)
+    
+    # Recursion: 'current' becomes 'current + 1', 'limit' stays the same
+    ft_count_harvest_recursive(current + 1, limit)
