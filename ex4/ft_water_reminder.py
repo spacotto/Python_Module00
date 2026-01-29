@@ -10,6 +10,7 @@ def ft_water_reminder():
     
     # Check if the number of days is greater than 2
     if days > 2:
-        print("Water the plants!")
+        print(f"{cyan} Water the plants!{reset}")
     else:
-        print("Plants are fine")
+        print(f"{green} Plants are fine{reset}")
+
