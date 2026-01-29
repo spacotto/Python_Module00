@@ -1,7 +1,11 @@
 def ft_garden_summary():
-    garden_name = input("Enter garden name: ")
-    num_plants = input("Enter number of plants: ")
+    # Variable that stores input str "name"
+    name = input("Enter garden name: ")
     
-    print("Garden:", garden_name)
-    print("Plants:", num_plants)
+    # Variable that stores input str "plants" (no need to convert to int)
+    plants = input("Enter number of plants: ")
+    
+    # Print summary: variables + fixed status message
+    print("Garden:", name)
+    print("Plants:", plants)
     print("Status: Growing well!")
