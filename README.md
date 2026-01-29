@@ -2,6 +2,37 @@
 An introduction to Python fundamentals through community garden data analysis. This module teaches **basic syntax** and **semantics**, including **expressions**, **variables**, **functions**, and **control flow** through practical, real-world (sort of) exercises.
 
 ## Instructions
+Git clone the repository:
+```shell
+https://github.com/spacotto/Python_Module00.git
+```
+
+### Use functions through `main.py`
+Run the main:
+```shell
+python3 main.py
+```
+
+### Use functions directly in the terminal
+Go into the directory of the function you want to use:
+```shell
+cd ex0  # Enter the directory of ex0
+```
+
+Switch to Python terminal:
+```shell
+python3
+```
+
+Import the function file and function:
+```python
+>>> from ft_seed_inventory import ft_seed_inventory
+```
+
+Call the function directly in the main:
+```python
+>>> ft_seed_inventory("tomato", 15, "packets")
+```
 
 ## Exercises
 ### Exercise 0: Hello Garden
@@ -49,13 +80,3 @@ An introduction to Python fundamentals through community garden data analysis. T
 
 ### Exercise 7: Seed Inventory with Type Annotations
 - [`print()`](https://github.com/spacotto/grimoire/blob/main/python/print.md)
-
->[!TIP]
->If you want to test `ex7` with different parameters, you can call the function directly in the terminal. Open your terminal and enter `python3`. Then import your file and function:
->```
->from ft_seed_inventory import ft_seed_inventory
->```
->Now you can call the function without needing a main:
->```
->ft_seed_inventory("tomato", 15, "packets")
->```
