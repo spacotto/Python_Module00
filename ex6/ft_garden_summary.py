@@ -12,7 +12,7 @@ def ft_garden_summary():
     plants = input(f"{white} Enter number of plants: {reset}")
     
     # Print summary: variables + fixed status message
-    print(f"{white} Garden:{reset}", name)
+    print(f"\n{white} Garden:{reset}", name)
     print(f"{white} Plants:{reset}", plants)
-    print(f"{green} Status: Growing well!{reset}")
+    print(f"{white} Status: {green}Growing well!{reset}")
 
