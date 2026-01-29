@@ -5,7 +5,7 @@ An introduction to Python fundamentals through community garden data analysis. T
 - [Function definition](https://github.com/spacotto/grimoire/blob/main/python/fn_definition.md)
 - [`print` function](https://github.com/spacotto/grimoire/blob/main/python/print.md)
 
-## Exercise 1, Garden Plot Area:
+## Exercise 1: Garden Plot Area
 - [Variables](https://github.com/spacotto/grimoire/blob/main/python/variable.md)
 - Data Types
 - [`input()` function](https://github.com/spacotto/grimoire/blob/main/python/input.md)
@@ -13,21 +13,21 @@ An introduction to Python fundamentals through community garden data analysis. T
 ## Exercise 2: Harvest Total
 -
   
-## Exercise 3, Plant Age Check: Conditional Statements
+## Exercise 3: Plant Age Check
 -
 
-## Exercise 4, Water Reminder: Boolean Logic and Conditionals
+## Exercise 4: Water Reminder
 -
 
-## Exercise 5, Count to Harvest: Iteration and Recursion
+## Exercise 5: Count to Harvest
 - [Iteration](https://github.com/spacotto/grimoire/blob/main/python/iteration.md)
 - [Recursion](https://github.com/spacotto/grimoire/blob/main/python/recursion.md)
 
 >[!NOTE]
 >Both iteration and recursion can solve the same problem differently.
 
-## Exercise 6, Garden Summary: String Formatting and Output
+## Exercise 6: Garden Summary
 -
 
-## Exercise 7, Seed Inventory with Type Annotations: Function Parameters and Type Hints
+## Exercise 7: Seed Inventory with Type Annotations
 -
