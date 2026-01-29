@@ -10,6 +10,5 @@ def ft_count_harvest_iterative():
     # for loop
     for day in range(1, limit + 1):
         print(" Day", day)
-        
-    print(f"{green} Harvest time!{reset}")
 
+    print(f"{green} Harvest time!{reset}")
