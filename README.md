@@ -38,3 +38,13 @@ total = x + y + z
 
 ## Exercise 7: Seed Inventory with Type Annotations
 -
+
+>[!TIP]
+>If you want to test `ex7` with different parameters, you can call the function directly in the terminal. Open your terminal and enter `python3`. Then import your file and function:
+>```
+>from ft_seed_inventory import ft_seed_inventory
+>```
+>Now you can call the function without needing a main:
+>```
+>ft_seed_inventory("tomato", 15, "packets")
+>```
