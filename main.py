@@ -130,7 +130,7 @@ def main():
     print(f" {WHITE}🌱 Welcome to Growing Code! 🌱{RESET}")
     print(" ============================================================================")
     print(" This helper will test your exercises for you.")
-    print(" Which exercise would you like to test?i\n")
+    print(" Which exercise would you like to test?\n")
     print(f" {WHITE}n.  Name                Description{RESET}")
     print(" ----------------------------------------------------------------------------")
     print(" 0   ft_hello_garden     Say hello to the garden community")
