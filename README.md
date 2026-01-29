@@ -87,6 +87,8 @@ Call the function directly in the main:
 - [`print()`](https://github.com/spacotto/grimoire/blob/main/python/print.md)
 
 ### Exercise 5: Count to Harvest
+- Parameters
+- Helper functions
 - [`int()` casting](https://github.com/spacotto/grimoire/blob/main/python/int().md)
 - [`input()`](https://github.com/spacotto/grimoire/blob/main/python/input.md)
 - [`print()`](https://github.com/spacotto/grimoire/blob/main/python/print.md)
@@ -102,4 +104,6 @@ Call the function directly in the main:
 - [`print()`](https://github.com/spacotto/grimoire/blob/main/python/print.md)
 
 ### Exercise 7: Seed Inventory with Type Annotations
+- Conditional statements (`if`, `elif`, `else`)
+- Parameter
 - [`print()`](https://github.com/spacotto/grimoire/blob/main/python/print.md)
