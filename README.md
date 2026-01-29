@@ -21,10 +21,10 @@ total = x + y + z
 ```
   
 ## Exercise 3: Plant Age Check
-Conditional statements (`if`, `else`)
+- Conditional statements (`if`, `else`)
 
 ## Exercise 4: Water Reminder
--
+- Conditional statements (`if`, `else`)
 
 ## Exercise 5: Count to Harvest
 - [Iteration](https://github.com/spacotto/grimoire/blob/main/python/iteration.md)
