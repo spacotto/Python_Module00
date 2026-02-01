@@ -1,5 +1,5 @@
 # Python Module 00
-An introduction to Python fundamentals through community garden data analysis. This module teaches **basic syntax** and **semantics**, including **expressions**, **variables**, **functions**, and **control flow** through practical, real-world (sort of) exercises.
+Growing Code is an introductory Python project that teaches fundamental **syntax—including expressions**, **variables, functions**, and control flow. Using `Python 3.10+` and adhering to `flake8` standards, learners develop functions (from simple message displays to recursive loops and type annotations) to solve "real-world" scenarios, such as calculating plot areas or managing seed inventories.
 
 ## Instructions
 Git clone the repository:
@@ -54,51 +54,41 @@ Call the function directly in the main:
 
 ## Exercises
 ### Exercise 0: Hello Garden
-- [Function definition](https://github.com/spacotto/grimoire/blob/main/python/fn_definition.md)
-- [`print()`](https://github.com/spacotto/grimoire/blob/main/python/print.md)
+* **Function Definition**: Understanding the `def` keyword and basic function structure.
+* **Standard Output**: Utilizing `print()` to display strings to the console.
+* **String Literals**: Representing text data within code.
 
 ### Exercise 1: Garden Plot Area
-- [Variables](https://github.com/spacotto/grimoire/blob/main/python/variable.md)
-- Data Types
-- [`int()` casting](https://github.com/spacotto/grimoire/blob/main/python/int().md)
-- [`input()`](https://github.com/spacotto/grimoire/blob/main/python/input.md)
-- [`print()`](https://github.com/spacotto/grimoire/blob/main/python/print.md)
+* **User Input**: Using `input()` to capture data from the user.
+* **Type Casting**: Converting string input to integers using `int()` for mathematical operations.
+* **Arithmetic Expressions**: Implementing basic multiplication to calculate area ($length \times width$).
+* * **Variables**: Storing and manipulating numerical values.
 
 ### Exercise 2: Harvest Total
-- [`int()` casting](https://github.com/spacotto/grimoire/blob/main/python/int().md)
-- [`input()`](https://github.com/spacotto/grimoire/blob/main/python/input.md)
-- [`print()`](https://github.com/spacotto/grimoire/blob/main/python/print.md)
+* **Variable Management**: Handling multiple distinct inputs for different variables.
+* **Accumulation**: Calculating a total sum from multiple data points.
+* **Sequential Logic**: Managing the flow of multiple `input()` and `int()` calls.
   
 ### Exercise 3: Plant Age Check
-- Conditional statements (`if`, `else`)
-- [`int()` casting](https://github.com/spacotto/grimoire/blob/main/python/int().md)
-- [`input()`](https://github.com/spacotto/grimoire/blob/main/python/input.md)
-- [`print()`](https://github.com/spacotto/grimoire/blob/main/python/print.md)
+* **Comparison Operators**: Using relational operators like `>` to evaluate conditions.
+* **Conditional Statements**: Implementing `if/else` logic to branch program execution.
+* **Boolean Logic**: Understanding how programs make decisions based on value assessments.
 
 ### Exercise 4: Water Reminder
-- Conditional statements (`if`, `else`)
-- [`int()` casting](https://github.com/spacotto/grimoire/blob/main/python/int().md)
-- [`input()`](https://github.com/spacotto/grimoire/blob/main/python/input.md)
-- [`print()`](https://github.com/spacotto/grimoire/blob/main/python/print.md)
+* **Control Flow**: Directing the program to print different messages based on conditional outcomes.
+* **Relational Logic**: Testing if a value exceeds a specific threshold (e.g., more than 2 days).
 
 ### Exercise 5: Count to Harvest
-- Parameters
-- Helper functions
-- [`int()` casting](https://github.com/spacotto/grimoire/blob/main/python/int().md)
-- [`input()`](https://github.com/spacotto/grimoire/blob/main/python/input.md)
-- [`print()`](https://github.com/spacotto/grimoire/blob/main/python/print.md)
-- `range()`
-- [Iteration](https://github.com/spacotto/grimoire/blob/main/python/iteration.md)
-- [Recursion](https://github.com/spacotto/grimoire/blob/main/python/recursion.md)
-
->[!NOTE]
->Both iteration and recursion can solve the same problem differently.
+* **Iteration**: Using `for` loops or `while` loops to repeat actions.
+* **Range Function**: Using `range()` to generate a sequence of numbers.
+* **Recursion**: Understanding how a function calls itself to solve a repetitive task.
+* **Helper Functions**: Implementing nested or separate helper functions to support recursive logic.
 
 ### Exercise 6: Garden Summary
-- [`input()`](https://github.com/spacotto/grimoire/blob/main/python/input.md)
-- [`print()`](https://github.com/spacotto/grimoire/blob/main/python/print.md)
+* **Data Aggregation**: Combining user input with fixed string constants.
+* **String Formatting**: Displaying multiple variables (strings and integers) in a structured summary.
 
 ### Exercise 7: Seed Inventory with Type Annotations
-- Conditional statements (`if`, `elif`, `else`)
-- Parameter
-- [`print()`](https://github.com/spacotto/grimoire/blob/main/python/print.md)
+* **Type Hinting**: Defining function signatures with explicit types (`str`, `int`, `-> None`).
+* **String Methods**: Using built-in methods (e.g., for capitalisation) to format output.
+* **Multi-way Branching**: Validating specific string inputs ("packets", "grams", "area") and handling unknown types.
