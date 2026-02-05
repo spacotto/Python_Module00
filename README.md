@@ -1,5 +1,5 @@
-# Python Module 00
-Growing Code is an introductory Python project that teaches fundamental **syntax—including expressions**, **variables, functions**, and control flow. Using `Python 3.10+` and adhering to `flake8` standards, learners develop functions (from simple message displays to recursive loops and type annotations) to solve "real-world" scenarios, such as calculating plot areas or managing seed inventories.
+# Python Module 00: Growing Code, Python Fundamentals Through Garden Data
+The main topic of this module is an introduction to **Python's fundamental syntax and semantics**. It focuses on building core programming blocks such as variables, expressions, functions, control flow, and iteration (both loops and recursion). By solving hypothetical and simplified real-world scenarios, like calculating garden plot areas or tracking harvest yields, you develop computational thinking and problem-solving skills while contributing to sustainable community initiatives.
 
 ## Instructions
 Git clone the repository:
