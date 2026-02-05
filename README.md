@@ -54,9 +54,10 @@ Call the function directly in the main:
 
 ## Exercises
 ### Exercise 0: Hello Garden
-* **Function Definition**: Understanding the `def` keyword and basic function structure.
-* **Standard Output**: Utilizing `print()` to display strings to the console.
-* **String Literals**: Representing text data within code.
+This exercise is designed to teach the **basic syntax** of **defining and using functions** in Python. Specifically, it introduces:
+- **Function Definition:** How to declare a named block of code that performs a specific task.
+- **Standard Output:** Using the `print()` function to interact with the user or console.
+- **Encapsulation:** Writing code that is contained within a function rather than running as a global script.
 
 ### Exercise 1: Garden Plot Area
 * **User Input**: Using `input()` to capture data from the user.
