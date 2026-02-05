@@ -60,10 +60,10 @@ This exercise is designed to teach the **basic syntax** of **defining and using 
 - **Encapsulation:** Writing code that is contained within a function rather than running as a global script.
 
 ### Exercise 1: Garden Plot Area
-* **User Input**: Using `input()` to capture data from the user.
-* **Type Casting**: Converting string input to integers using `int()` for mathematical operations.
-* **Arithmetic Expressions**: Implementing basic multiplication to calculate area ($length \times width$).
-* * **Variables**: Storing and manipulating numerical values.
+* **User Input and Type Conversion**: Capturing user data as strings and converting them into integers to allow for mathematical processing.
+* **Variable Assignment**: Assigning data to descriptive labels to store and manipulate values throughout the function's execution.
+* **Arithmetic Operations**: Applying basic math (multiplication) to variables to solve a specific problem.
+* **Sequential Logic and Flow**: Executing a series of instructions in a specific order: collecting inputs, performing a calculation, and then outputting the result.
 
 ### Exercise 2: Harvest Total
 * **Variable Management**: Handling multiple distinct inputs for different variables.
