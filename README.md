@@ -53,7 +53,7 @@ Call the function directly in the main:
 ```
 
 ## Theoretical Concepts
-The theoretical concepts covered in this module are documented in myseparate notes repository:
+The theoretical concepts covered in this module are documented in my separate notes repository:
 - [PYTHON 101 — PART I: PYTHON FUNDAMENTALS](https://github.com/spacotto/grimoire/blob/main/python/_index(python).md#part-i-python-fundamentals)
 - [PYTHON 101 — PART II: VARIABLES AND DATA TYPES](https://github.com/spacotto/grimoire/blob/main/python/_index(python).md#part-ii-variables-and-data-types)
 - [PYTHON 101 — PART III: OPERATORS AND EXPRESSIONS](https://github.com/spacotto/grimoire/blob/main/python/_index(python).md#part-iii-operators-and-expressions)
