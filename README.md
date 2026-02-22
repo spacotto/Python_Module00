@@ -1,4 +1,4 @@
-# Python Module 00: Growing Code, Python Fundamentals Through Garden Data
+# Python Module 00
 **Growing Code, Python Fundamentals Through Garden Data.** Discover Python’s fundamental syntax and semantics through analysing community garden data. Learn expressions, variables, functions, and control flow while contributing to sustainable community initiatives.
 
 ## Instructions
